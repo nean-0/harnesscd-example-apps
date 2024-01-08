@@ -1,9 +1,9 @@
 connector:
-  name: harness_gitconnector
-  identifier: harnessgitconnector
+  name: "Github repo"
+  identifier: Github_repo
   description: ""
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: Guestbook_on_GKE
   type: Github
   spec:
     url: https://github.com/GITHUB_USERNAME/
@@ -14,10 +14,10 @@ connector:
         type: UsernameToken
         spec:
           username: GITHUB_USERNAME
-          tokenRef: harness_gitpat
+          tokenRef: Github_API_token
     apiAccess:
       type: Token
       spec:
-        tokenRef: harness_gitpat
+        tokenRef: Github_API_token
     executeOnDelegate: false
     type: Account

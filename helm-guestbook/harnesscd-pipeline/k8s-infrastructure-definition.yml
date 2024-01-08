@@ -4,7 +4,7 @@ infrastructureDefinition:
   description: ""
   tags: {}
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: Guestbook_on_GKE
   environmentRef: harnessdevenvdep
   deploymentType: Kubernetes
   type: KubernetesDirect

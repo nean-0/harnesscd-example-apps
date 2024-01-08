@@ -4,5 +4,5 @@ environment:
   tags: {}
   type: PreProduction
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: Guestbook_on_GKE
   variables: []

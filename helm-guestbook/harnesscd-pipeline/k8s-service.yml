@@ -2,7 +2,7 @@ service:
   name: harnessguestbookdep
   identifier: harnessguestbookdep
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: Guestbook_on_GKE
   serviceDefinition:
     type: Kubernetes
     spec:
@@ -14,7 +14,7 @@ service:
               store:
                 type: Github
                 spec:
-                  connectorRef: harnessgitconnector
+                  connectorRef: Github_repo
                   gitFetchType: Branch
                   folderPath: /helm-guestbook
                   repoName: harnesscd-example-apps
